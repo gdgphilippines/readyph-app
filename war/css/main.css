@@ -302,3 +302,74 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/*--General styles--*/
+.floatLeft {float: left;}
+.floatRight {float: right;}
+input {border: 1px solid #8e9daa;}
+body, p, td, input, select, option
+{
+   font-family: 'Open Sans', sans-serif;
+   font-size:12px;
+   color:#000;
+   line-height:18px;
+}
+A, A:link, a:visited {text-decoration: none; color: #0000ff;}
+A:hover {color: Red; text-decoration: underline;}
+img a {border: none;}
+img a:hover {text-decoration: none;}
+
+a.blklink, a.blklink:visited{color:#000;text-decoration: none;}
+a.blklink:hover {color:#ff0000;text-decoration: none;}
+
+h1, h2 {margin:0; padding:0; font-family: 'Open Sans', sans-serif;}
+
+
+body
+{
+   background-color:#fff;
+   margin: 0px;
+   padding: 0px; 
+   width:100%;
+}
+
+/*--Header--*/
+#header {width:960px; margin: 0 auto; height:65px; color:#fff}
+#nav {height: 39px; background-color:#e7e7e7;}
+#content {width:960px; margin: 0 auto; clear: both;}
+
+#secondary {
+	float: left;
+	margin: 0 -750px 0 0;
+	width: 100%;
+}
+
+#primary {
+	float: right;
+	overflow: hidden;
+	width: 740px;
+}
+
+
+#colorheading-grn, sideboxmain, sidecontent, sidecontent-inner, inner {*display:inline; zoom: 1; }
+#sideboxmain {border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc; width:208px}
+#leftContent {width:208px;}
+
+h1.colorheading {margin:0; padding:5px 0; font-size:15px; font-weight: normal}
+.h2head {border-bottom:1px solid #ccc; padding-bottom:5px; font-size:16px; line-height: 24px}
+.h2head h2 {font-weight:normal;}
+#colorheading-brwn {background-color: #a46c00; color:#fff; width:208px}
+#colorheading-blue {background-color: #0b7c9c; color:#fff; width:208px}
+#colorheading-grn {background-color: #98a82b; color:#fff; width:208px}
+
+#colorheading-red {background-color: #9c2b0b; width:250px; color:#fff; position:relative; top:0px; left:7px; z-index:4;}
+#sidecontent {width:194px; margin: 0 auto; padding: 5px 0}
+
+
+
+h1.heading {font-size:24px; margin:0; padding-bottom:5px; color:#6b5d91; font-weight: normal; }
+h1.title {font-size:16px; margin:0; padding-bottom:5px; color:#6b5d91;}
+
+
+
+#footer {background-color:#f3f3f3; padding:12px 0;}
